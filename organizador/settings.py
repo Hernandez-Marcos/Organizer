@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'tareas.apps.TareasConfig',
+    'tasks.apps.TasksConfig',
     'menu.apps.MenuConfig',
     'accounts.apps.AccountsConfig'
 ]
