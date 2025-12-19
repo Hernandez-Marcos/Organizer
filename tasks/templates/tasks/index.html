@@ -3,4 +3,14 @@
 {% block content %}
 Estás en Tasks.
 <a href="{% url 'tasks:create-task' %}">Create Task</a>
+<hr>
+{% for task in tasks %}
+    <div> 
+        <h3>{{task.title}}</h3>
+        <p>{{task.description}}</p>
+        <small>fecha límite: {{task.limit_date}}</small>
+    </div>
+    <hr>
+{% endfor %}
+
 {% endblock content %}
