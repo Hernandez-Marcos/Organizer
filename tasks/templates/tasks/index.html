@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-Estás en Tasks.
+<h2>Tasks</h2>
 <a href="{% url 'tasks:create-task' %}">Create Task</a>
 <hr>
 {% for task in tasks %}
@@ -13,6 +13,7 @@ Estás en Tasks.
         <p>completado: {{task.completed}}</p>
         <small>fecha límite: {{task.limit_date}}</small>
         <a href="{% url 'tasks:update-task' task.pk %}">Update task</a>
+        <a href="{% url 'tasks:delete-task' task.pk %}">Delete task</a>
     </div>
     <hr>
 {% endfor %}
