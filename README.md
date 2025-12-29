@@ -34,6 +34,13 @@ This project was created as a **learning project**, focused on backend developme
 
 ---
 
+## Project structure note
+
+The `menu` app currently contains a single view and serves as a base entry point for the project.  
+It was intentionally kept as a separate app to maintain a modular structure and allow future expansion without requiring restructuring of the project.
+
+---
+
 ## Tech Stack
 
 - Python
