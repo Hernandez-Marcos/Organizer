@@ -36,8 +36,7 @@ This project was created as a **learning project**, focused on backend developme
 
 ## Project structure note
 
-The `menu` app currently contains a single view and serves as a base entry point for the project.  
-It was intentionally kept as a separate app to maintain a modular structure and allow future expansion without requiring restructuring of the project.
+The menu app currently contains a single view and serves as the project’s base entry point. It is designed as a separate, modular app to prevent future restructuring and accommodate additional functionality — it’s not just for home.html.
 
 ---
 
